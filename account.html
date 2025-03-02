@@ -50,19 +50,17 @@
                         </div>
 
                         <form id="LoginForm">
-                            <input type="text" placeholder="Username">
-                            <input type="password" placeholder="Password">
-                            <button type="submit" class="btn" onclick="log_prompt()">
-                                <a href="index.html">Login</a></button>
-                            <a href="index.html" onclick="log_prompt()">Forgot password</a>
+                            <input type="text" id="loginUsername" placeholder="Username" required>
+                            <input type="password" id="loginPassword" placeholder="Password" required>
+                            <button type="button" class="btn" onclick="loginUser()">Login</button>
+                            <a href="#" onclick="forgotPassword()">Forgot password</a>
                         </form>
 
                         <form id="RegForm">
-                            <input type="text" placeholder="Username">
-                            <input type="email" placeholder="Email">
-                            <input type="password" placeholder="Password">
-                            <button type="submit" class="btn" onclick="reg_prompt()"> 
-                                <a href="account.html">Register</a></button>
+                            <input type="text" id="regUsername" placeholder="Username" required>
+                            <input type="email" id="regEmail" placeholder="Email" required>
+                            <input type="password" id="regPassword" placeholder="Password" required>
+                            <button type="button" class="btn" onclick="registerUser()">Register</button>
                         </form>
                     </div>
                 </div>
@@ -84,7 +82,7 @@
                 </div>
                 <div class="footer-col-2">
                     <a href="index.html"><img src="images/Gifts-logos.png"></a>
-                    <p>Step into a world of enchantment, where every item tells a story 
+                    <p>Step into a world of enchantment, where every item tells a story
                         of joy and thoughtful moments</p>
                 </div>
                 <div class="footer-col-3">
@@ -107,7 +105,7 @@
                 </div>
             </div>
             <hr>
-            <p class="copyright">Copyright 2024 - Gifts and More</p>
+            <p class="copyright">©️ Copyright 2024 - Gifts and More, Made by Preveen S</p>
         </div>
 
         <!----- js for toggle menu------->
@@ -142,13 +140,48 @@
                 Indicator.style.transform = "translateX(0px)"
             }
 
-            function reg_prompt() {
-                alert("You're are registered successfully!!")
-            }
-            function log_prompt() {
-                alert("You're logged in succesfully!!")
+            // Mock user data
+            const users = [];
+
+            function registerUser() {
+                const username = document.getElementById('regUsername').value;
+                const email = document.getElementById('regEmail').value;
+                const password = document.getElementById('regPassword').value;
+
+                if (username && email && password) {
+                    const userExists = users.some(user => user.username === username || user.email === email);
+                    if (userExists) {
+                        alert('Username or email already exists!');
+                    } else {
+                        users.push({ username, email, password });
+                        alert('Registration successful!');
+                        // Clear form fields
+                        document.getElementById('regUsername').value = '';
+                        document.getElementById('regEmail').value = '';
+                        document.getElementById('regPassword').value = '';
+                    }
+                } else {
+                    alert('Please fill in all fields!');
+                }
             }
 
+            function loginUser() {
+                const username = document.getElementById('loginUsername').value;
+                const password = document.getElementById('loginPassword').value;
+
+                const user = users.find(user => user.username === username && user.password === password);
+                if (user) {
+                    alert('Login successful!');
+                    // Redirect to home page or dashboard
+                    window.location.href = 'index.html';
+                } else {
+                    alert('Invalid username or password!');
+                }
+            }
+
+            function forgotPassword() {
+                alert('Forgot password functionality is not implemented yet.');
+            }
         </script>
 
 </body>
