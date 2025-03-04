@@ -15,25 +15,25 @@
 </head>
 
 <body>
-    <div class="container">        
-        <div class="navbar">        
-            <div class="logo">        
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
                 <a href="index.html"><img src="images/Gifts-logos.png" alt="" width="125px"></a>
-            </div>        
-            <nav>        
-                <ul id="MenuItems">        
-                    <li><a href="index.html">Home</a></li>    
-                    <li><a href="products-1.html">Products</a></li>        
-                    <li><a href="about.html">About</a></li>     
-                    <li><a href="contact.html">Contact</a></li>       
-                    <li><a href="account.html">Account</a></li>       
-                </ul>        
-            </nav>        
-            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>    
-            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">        
-        </div>        
-    </div>        
-    
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products-1.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
     <div class="small-container">
         <div class="row row-2">
             <h2>All Products</h2>
@@ -48,7 +48,9 @@
         <div class="row">
             <div class="col-4">
                 <a href="product-details.html"><img src="images/product-1.jpg" alt=""></a>
-                <a href="product-details.html"><h4>The Lotus Buddha marble idol</h4></a>
+                <a href="product-details.html">
+                    <h4>The Lotus Buddha marble idol</h4>
+                </a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -93,7 +95,7 @@
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <p>$50.00</p>
-            </div>  
+            </div>
         </div>
         <div class="row">
             <div class="col-4">
@@ -145,7 +147,7 @@
                 <p>$50.00</p>
             </div>
         </div>
-        <div class="row">            
+        <div class="row">
             <div class="col-4">
                 <img src="images/product-9.jpg" alt="">
                 <h4>Terra Horse miniature</h4>
@@ -218,7 +220,7 @@
                 </div>
                 <div class="footer-col-2">
                     <a href="index.html"><img src="images/Gifts-logos.png"></a>
-                    <p>Step into a world of enchantment, where every item tells a story 
+                    <p>Step into a world of enchantment, where every item tells a story
                         of joy and thoughtful moments</p>
                 </div>
                 <div class="footer-col-3">
@@ -244,19 +246,21 @@
             <p class="copyright">©️ Copyright 2024 - Gifts and More, Made by Preveen S</p>
         </div>
 
-<!----- js for toggle menu------->
+        <!----- js for toggle menu------->
         <script>
             var MenuItems = document.getElementById("MenuItems")
             MenuItems.style.maxHeight = "0px"
-            function menutoggle(){
-                if(MenuItems.style.maxHeight == "0px") {
+            function menutoggle() {
+                if (MenuItems.style.maxHeight == "0px") {
                     MenuItems.style.maxHeight = "200px"
                 }
-                else{
+                else {
                     MenuItems.style.maxHeight = "0px"
                 }
             }
         </script>
+
+        <script type="module" src="firebase.js"></script>
 </body>
 
 </html>
