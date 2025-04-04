@@ -258,7 +258,29 @@
             }
         </script>
 
-        <script type="module" src="firebase.js"></script>
+        <script type="module">
+            import { addProduct } from "./firebase.js";
+
+            // Check if products have already been added
+            if (!localStorage.getItem("products-3-added")) {
+                // Extract product details from the HTML
+                const products = Array.from(document.querySelectorAll(".row .col-4")).map(productElement => {
+                    const name = productElement.querySelector("h4").textContent.trim();
+                    const price = parseFloat(productElement.querySelector("p").textContent.replace("$", "").trim());
+                    const rating = productElement.querySelectorAll(".fa-star").length + 
+                                   0.5 * productElement.querySelectorAll(".fa-star-half-o").length;
+                    const image = productElement.querySelector("img").getAttribute("src");
+                    return { name, price, rating, image };
+                });
+
+                // Add products to Firestore
+                products.forEach(product => addProduct(product));
+
+                // Mark as added in localStorage
+                localStorage.setItem("products-3-added", "true");
+            }
+        </script>
+
 </body>
 
 </html>
