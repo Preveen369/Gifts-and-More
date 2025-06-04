@@ -63,11 +63,11 @@ Gifts-and-More/
 
 ## 🧪 Installation & Setup
 
-### Prerequisites
+### 📋 Prerequisites
 - A modern web browser (e.g., Chrome, Firefox)  
 - Firebase CLI (optional, if deploying with Firebase)
 
-### Steps
+### 🧑‍💻 Steps
 1. **Clone the repository**
    ```bash
    git clone https://github.com/YourUsername/Gifts-and-More.git
