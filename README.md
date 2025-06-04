@@ -5,7 +5,7 @@
 ![Language](https://img.shields.io/badge/Language-JavaScript-yellow.svg)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
-**Gifts-and-More** is a static web application that provides an e-commerce-like interface for browsing and exploring gift items. Built with HTML, CSS, and JavaScript, it features a clean, user-friendly design with mock gift data, allowing users to view gift items with details like names, prices, and descriptions. Firebase may be used for hosting or data management.
+**Gifts-and-More** is a static web application with an e-commerce-like interface built using HTML, CSS, and JavaScript. It features product data stored in Firebase Firestore, enabling dynamic retrieval of gift details such as names, prices, and descriptions. Hosted on Firebase, the project combines a clean, user-friendly design with scalable backend data management, providing a seamless browsing experience.
 
 ---
 
