@@ -104,8 +104,8 @@ git push origin feature-name
 
 For queries or suggestions:
 
-- 📩 Email: your-email@example.com  
-- 🌐 LinkedIn: www.linkedin.com/in/your-profile/
+- 📩 Email: spreveen123@gmail.com  
+- 🌐 LinkedIn: www.linkedin.com/in/preveen-s-17250529b/
 
 ---
 
