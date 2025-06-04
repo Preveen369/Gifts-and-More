@@ -11,29 +11,36 @@
 
 ## 🚀 Features
 
-### 🛍️ E-Commerce Interface
-- Displays a grid of gift items with names, prices, and descriptions.  
-- Includes a search bar for filtering gifts (mock functionality).
+### 🏠 Welcome & Main Page
+- Serves as the initial landing page that introduces visitors to the website.  
+- Acts as a central navigation point to other sections.
 
-### 🎀 Gift Item Details
-- Each gift item includes a thumbnail image, name, price, and brief description.  
-- Mock data simulates a real shopping experience.
+### 🛍️ Product Listing & Detail Pages
+- Displays a collection of items with basic information such as images, names, and prices.  
+- Includes dedicated pages for in-depth details of each item.
 
-### 📱 Responsive Design
-- Fully responsive layout that adapts to desktop, tablet, and mobile screens.  
-- Styled with CSS for a modern, clean aesthetic.
+### 👤 User Profile & Login
+- Provides options for users to create accounts, log in, and manage their profiles.  
+- Supports personalized user experiences for enhanced shopping.
 
-### ⚡ Lightweight & Static
-- No backend required—runs entirely on the client side.  
-- Uses mock data for quick setup and testing.
+### ℹ️ About & Contact Sections
+- Shares background information about the website or business.  
+- Contains contact details and forms for communication.
+
+### 🛒 Shopping & Review Area
+- Allows users to add items to a cart and review them before purchasing.  
+- Facilitates the checkout process generate the invoice bill.
+
+### 🌟 Special Feature Highlights
+- Showcases select or premium items with exclusive descriptions.  
+- Emphasizes featured content to attract attention.
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript  
-- **Database/Hosting**: Firebase (optional, for hosting or mock data)  
-- **Tools**: None (static site)
+- **Database, Hosting**: Firebase (Firestore, Hosting)  
 
 ---
 
