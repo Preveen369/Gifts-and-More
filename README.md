@@ -7,6 +7,8 @@
 
 **Gifts-and-More** is a static web application with an e-commerce-like interface built using HTML, CSS, and JavaScript. It features product data stored in Firebase Firestore, enabling dynamic retrieval of gift details such as names, prices, and descriptions. Hosted on Firebase, the project combines a clean, user-friendly design with scalable backend data management, providing a seamless browsing experience.
 
+🔗 **Project Demo**: <https://gifts-and-more-7aa78.firebaseapp.com/>
+
 ---
 
 ## 🚀 Features
@@ -81,7 +83,7 @@ Gifts-and-More/
    - Initialize Firebase: `firebase init`
    - Deploy: `firebase deploy`
 
-🌐 Access your app live at: https://gifts-and-more-7aa78.firebaseapp.com/
+🌐 Access your app live at: <https://gifts-and-more-7aa78.firebaseapp.com/>
 
 ---
 
