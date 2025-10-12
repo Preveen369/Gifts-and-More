@@ -3,7 +3,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Web-blue.svg)
 ![Tech](https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS-orange.svg)
 ![Language](https://img.shields.io/badge/Language-JavaScript-yellow.svg)
-![Database](https://img.shields.io/badge/Database-Firebase-red.svg)
+![Backend](https://img.shields.io/badge/Backend-Firebase-red.svg)
 
 **Gifts-and-More** is a static web application with an e-commerce-like interface built using HTML, CSS, and JavaScript. It features product data stored in Firebase Firestore, enabling dynamic retrieval of gift details such as names, prices, and descriptions. Hosted on Firebase, the project combines a clean, user-friendly design with scalable backend data management, providing a seamless browsing experience.
 
