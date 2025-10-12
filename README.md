@@ -3,15 +3,15 @@
 ![Platform](https://img.shields.io/badge/Platform-Web-blue.svg)
 ![Tech](https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS-orange.svg)
 ![Language](https://img.shields.io/badge/Language-JavaScript-yellow.svg)
-![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
+![Database](https://img.shields.io/badge/Database-Firebase-red.svg)
 
 **Gifts-and-More** is a static web application with an e-commerce-like interface built using HTML, CSS, and JavaScript. It features product data stored in Firebase Firestore, enabling dynamic retrieval of gift details such as names, prices, and descriptions. Hosted on Firebase, the project combines a clean, user-friendly design with scalable backend data management, providing a seamless browsing experience.
 
-🔗 **Project Demo**: <https://gifts-and-more-7aa78.firebaseapp.com/>
+🔗 **Live Project**: <https://gifts-and-more-7aa78.firebaseapp.com/>
 
 ---
 
-## 🚀 Features
+## 🚀 Core Features
 
 ### 🏠 Welcome & Main Page
 - Serves as the initial landing page that introduces visitors to the website.  
@@ -69,7 +69,7 @@ Gifts-and-More/
 - A modern web browser (e.g., Chrome, Firefox)  
 - Firebase CLI (optional, if deploying with Firebase)
 
-### 🧑‍💻 Steps
+### 🧑‍💻 Steps to Run
 1. **Clone the repository**
    ```bash
    git clone https://github.com/YourUsername/Gifts-and-More.git
@@ -106,18 +106,14 @@ git push origin feature-name
 
 # 5. Open a Pull Request
 ```
-
 ---
 
 ## 📧 Contact
-
 For queries or suggestions:
-
-- 📩 Email: spreveen123@gmail.com  
-- 🌐 LinkedIn: www.linkedin.com/in/preveen-s-17250529b/
+- 📩 Email: [spreveen123@gmail.com](mailto:spreveen123@gmail.com)
+- 🌐 LinkedIn: [www.linkedin.com/in/preveen-s-17250529b/](https://www.linkedin.com/in/preveen-s-17250529b/)
 
 ---
 
 ## 🌟 Show Your Support
-
 If you like this project, please consider giving it a ⭐ on GitHub!
